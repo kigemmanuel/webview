@@ -4,11 +4,11 @@ android {
     compileSdkVersion 31
 
     defaultConfig {
-        applicationId "com.example.app"
+        applicationId "com.maina00.app" // <PACKAGE_NAME> - Change this to your unique package name (e.g., com.yourname.yourapp)
         minSdkVersion 21
         targetSdkVersion 31
-        versionCode 1
-        versionName "1.0"
+        versionCode 1 // <VERSION_CODE> - Increment this for each app update (1, 2, 3, etc.)
+        versionName "1.0.0" // <VERSION_NAME> - Your app version (e.g., "1.0", "2.5", etc.)
     }
     buildTypes {
         release {

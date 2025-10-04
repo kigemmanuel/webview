@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- <PACKAGE_NAME> - Must match the package name in build.gradle -->
 <manifest
-    package="com.example.app"
+    package="com.maina00.app"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+    
     <uses-permission android:name="android.permission.INTERNET" />
+    
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+        <!-- <ICON> - Replace ic_launcher.png and ic_launcher_round.png in all mipmap folders (mdpi, hdpi, xhdpi, xxhdpi, xxxhdpi) -->
+        <!-- <APPNAME> - android:label references the app name from strings.xml -->
+        
         <activity
             android:configChanges="orientation|screenSize"
-            android:name="com.example.app.MainActivity"
+            android:name="com.maina00.app.MainActivity"
             android:exported="true">
+            <!-- <PACKAGE_NAME> - MainActivity package must match build.gradle package -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
