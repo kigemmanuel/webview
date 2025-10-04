@@ -1,4 +1,4 @@
-package com.example.app;
+package com.maina00.app; // <PACKAGE_NAME> - Must match the package name in build.gradle and AndroidManifest.xml
 
 import android.content.Intent;
 import android.net.Uri;
